@@ -19,6 +19,7 @@ For every substantial task:
 7. Implement the smallest safe change.
 8. Run relevant validation and tests.
 9. Update project memory before completing the task.
+10. When a substantial reusable lesson is produced, evaluate it for governed learning capture according to `training/LEARNING-DATASET-POLICY.md` and `workflows/KNOWLEDGE-CAPTURE-TO-DATASET.md`.
 
 ## Project modes
 
@@ -62,6 +63,28 @@ Before production code:
 6. Legacy documentation.
 7. Assumptions.
 
+## Governed learning capture
+
+Sky365 engineering work may produce candidate knowledge for future internal models, evaluation sets, routing systems, retrieval corpora, and training datasets.
+
+Agents must:
+
+- preserve normal project documentation first
+- capture only substantial reusable lessons
+- use `training/LEARNING-RECORD-TEMPLATE.md`
+- store project-local candidates under `docs/learning/`
+- include evidence, provenance, license status, validation, and redaction checks
+- separate verified facts from inference and proposal
+- keep `training_approved: false`
+- require an authorized human reviewer before dataset export
+
+Agents must not:
+
+- automatically convert all chats, commits, logs, or generated outputs into training data
+- include secrets, customer data, unauthorized personal data, hidden chain-of-thought, or unlicensed third-party material
+- treat public accessibility as permission for reuse or training
+- mark generated but unvalidated content as a verified learning example
+
 ## Prohibited behavior
 
 - Do not replace frameworks, databases, or architectural patterns without an ADR.
@@ -74,3 +97,8 @@ Before production code:
 ## Completion rule
 
 A task is not complete until the affected project documentation, status, checkpoint, tests, and decision records are synchronized with the implemented result.
+
+When a task yields a reusable verified lesson, completion also includes either:
+
+- creation of a governed candidate learning record, or
+- an explicit note that no reusable training record was justified.
