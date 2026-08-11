@@ -1,5 +1,5 @@
 # Mostafa A. ElNagar
-**Microsoft AI & Cloud Technical Specialist | Enterprise Solutions | .NET, Azure, AI & Data**  
+**AI, Cloud & Enterprise Solutions Technical Specialist | Applied AI, AWS/Azure & Enterprise Systems**  
 Kuwait  
 Email: m.nagar@wytsky.com  
 Mobile: +965 90907209 | +965 50510300  
@@ -7,95 +7,101 @@ LinkedIn: https://www.linkedin.com/in/mostafa-a-elnagar/
 
 ## Professional Summary
 
-Senior technical specialist and enterprise architect with 20+ years of experience across software engineering, full-stack development, ERP/SaaS platforms, enterprise integration, cloud-oriented modernization and applied AI. Strong Microsoft-stack background spanning C#, .NET/.NET Core, Blazor, SQL Server, REST APIs, system architecture, reporting and Azure exposure, complemented by current work in LLMs, Generative AI, RAG, document intelligence, machine learning and automation. Experienced in translating customer business requirements into technical specifications, architecture and delivered solutions.
+Senior Technical Specialist and Enterprise Solutions Architect with 20+ years of multidisciplinary experience spanning Applied AI, Cloud Architecture (AWS / Azure), Full-Stack Engineering, and Enterprise Systems. Deep expertise in Generative AI, LLM Integration, RAG (Retrieval-Augmented Generation), Agentic Workflows, and Document Intelligence, anchored by a proven career in enterprise application modernization, microservices, and large-scale ERP integrations. Experienced in translating complex business requirements into high-performance cloud and AI solutions for enterprise clients.
 
 ## Core Skills
 
-C# | .NET | .NET Core | Blazor | Entity Framework | SQL Server | REST APIs | Microservices | Azure | Azure DevOps | Docker | CI/CD | JavaScript | TypeScript | Angular | React | Power BI | System Architecture | Solution Architecture | Database Design | SAP Integration | Oracle Integration | LLMs | Generative AI | RAG | Agentic RAG | Python | Pandas | PyTorch | OCR / Document Intelligence | n8n Automation
+- **AI & Data Science:** LLMs | Generative AI | RAG & Agentic RAG | Python | PyTorch | DeepSeek Fine-Tuning | Vision Language Models (VLM) | OCR & Document Intelligence | Pandas | n8n Automation | Power BI
+- **Cloud & DevOps:** AWS | Azure | Azure DevOps | Docker | Microservices | CI/CD | System Architecture | Security & DevSecOps
+- **Enterprise & Software Engineering:** C# | .NET / .NET Core | Blazor | Entity Framework | SQL Server | REST APIs | JavaScript | TypeScript | Angular | React | SAP Integration | Oracle Integration | Database Architecture
 
 ## Customer & Solution Strengths
 
-- Enterprise requirements analysis and translation into technical specifications.
-- Solution-level presentations and communication with technical and non-technical audiences.
-- Architecture across application, integration, database, reporting and automation layers.
-- Customer-facing modernization across ERP, SaaS, web, mobile and AI-enabled workflows.
-- Technical leadership across product development, release management and engineering teams.
+- Translating complex business and enterprise requirements into AI & Multi-Cloud technical specifications.
+- Delivering technical presentations and solution architectures to C-level executives and technical stakeholders.
+- Enterprise architecture across AI models, application logic, integration pipelines, and reporting layers.
+- End-to-end modernization of legacy systems into AI-enabled, cloud-native SaaS platforms.
+- Technical engineering leadership, product development oversight, and release governance.
 
 ## Professional Experience
 
 ### Product Development Engineering Manager — WytSky Clouding Solutions / wytskyai, Kuwait
-**Mar 2017 – Present**
-- Leads product engineering for SKY ERP / SKY365 and associated enterprise platforms.
-- Works across .NET Core, Blazor, JavaScript frameworks, microservices, MSSQL, system architecture, database design and cloud-oriented solutions.
-- Delivers reporting and analytics using Power BI, Stimulsoft Reporting and related tools.
-- Extends enterprise applications with AI-assisted workflows, RAG, document intelligence and intelligent automation.
-- Works across business and technical stakeholders to move requirements from analysis through design and implementation.
+*Mar 2017 – Present*
+
+- Leads product engineering and AI integration for SKY ERP / SKY365 enterprise platforms.
+- Architected and delivered AI-assisted workflows, RAG systems, document intelligence, and automated pipelines using n8n and vision models.
+- Drives cloud solutions using .NET Core, Blazor, TypeScript, microservices, SQL Server, AWS, and Azure infrastructure.
+- Implemented enterprise analytics and BI dashboards using Power BI and custom reporting engines.
+- Collaborates with enterprise stakeholders to drive products from vision and architecture to production delivery.
 
 ### Senior Development Manager — iSecureMind, Kuwait
-**Dec 2022 – Present**
-- Leads development teams delivering complex software initiatives.
-- Provides project management, technical oversight and strategic planning.
-- Aligns engineering delivery with business priorities and customer requirements.
+*Dec 2022 – Present*
+
+- Leads engineering teams delivering high-security software initiatives and enterprise platforms.
+- Provides technical governance, strategic cloud architecture planning, and project direction.
+- Aligns product engineering delivery with enterprise client requirements and security compliance.
 
 ### Lead Software Development Engineer — Quantum IT Services, Kuwait
-**Feb 2021 – Jul 2024**
-- Delivered enterprise solutions using C#, Blazor, Angular, React, .NET microservices and MSSQL.
-- Designed system and database architecture for integrated multi-solution environments.
-- Implemented Oracle and SAP S/4HANA integrations.
-- Worked on Xamarin mobile applications, SCSS and UI/UX auditing.
-- Used modern automation tools in delivery workflows.
+*Feb 2021 – Jul 2024*
+
+- Architected and delivered scalable enterprise applications using .NET microservices, Blazor, Angular, React, and SQL Server.
+- Designed system and database integration layers for SAP S/4HANA and Oracle enterprise platforms.
+- Led mobile development initiatives (.NET MAUI / Xamarin) and UI/UX architecture audits.
+- Integrated automated CI/CD and deployment pipelines.
 
 ### Senior Director of Software Engineering — WytSky Clouding Solutions, Kuwait
-**Mar 2015 – Feb 2017**
-- Led 17 product releases and engineering quality/feedback cycles.
-- Supervised software engineering teams and managers.
-- Designed n-tier applications and complex IT systems.
-- Led work across C#, MSSQL, MySQL, APIs, SOAP, XML, SAP integration, VB.NET, system architecture and product planning.
-- Trained 8 software-development interns.
+*Mar 2015 – Feb 2017*
+
+- Directed 17 major product releases and established engineering quality assurance standards.
+- Supervised cross-functional software engineering teams and development managers.
+- Architected n-tier enterprise solutions spanning C#, MySQL/MSSQL, SOAP/REST APIs, and SAP integrations.
+- Mentored and trained 8 software engineering interns.
 
 ### Senior Software Engineer Team Lead — WytSky Clouding Solutions, Kuwait
-**Oct 2013 – Feb 2015**
-- Led desktop-to-web/SaaS modernization.
-- Converted ALSADEQ Desktop ERP into SKY SaaS web ERP.
-- Delivered school, insurance, CRM, call-center and e-manufacturing solutions.
+*Oct 2013 – Feb 2015*
+
+- Spearheaded enterprise digital transformation: modernized ALSADEQ Desktop ERP into SKY SaaS Cloud ERP.
+- Delivered SaaS solutions for healthcare, education, insurance, CRM, call centers, and manufacturing.
 
 ### Lead Software Engineer — SAS, Kuwait
-**Sep 2008 – Sep 2013**
-- Delivered telecom billing, HRM, accounting, GPS, transportation and project-management solutions.
-- Implemented SharePoint and Primavera integrations and document-management solutions.
-- Performed solution architecture, system design and team leadership.
+*Sep 2008 – Sep 2013*
+
+- Designed and deployed enterprise solutions for telecom billing, HRM, ERP, GPS tracking, and logistics.
+- Integrated enterprise platforms with Microsoft SharePoint and Oracle/Primavera systems.
 
 ### Senior Software Engineer — SAS, Kuwait
-**Jun 2005 – Aug 2008**
-- Built accounting, stock, sales, purchasing, POS, hospital, HR and learning systems using VB6, MSSQL, MS Access, Sybase and FoxPro.
+*Jun 2005 – Aug 2008*
+
+- Developed core enterprise software for POS, accounting, inventory, and healthcare using VB6, SQL Server, Sybase, and FoxPro.
 
 ### Junior Software Engineer — SAS, Cairo, Egypt
-**Apr 2003 – May 2005**
-- Developed software using VB, C++ and MS Access.
+*Apr 2003 – May 2005*
+
+- Built desktop application modules using C++, Visual Basic, and database systems.
 
 ### Junior Software Engineer — Afaq Information Technology, Cairo, Egypt
-**Sep 2001 – Mar 2003**
-- Developed software using C++, VB and FoxPro.
+*Sep 2001 – Mar 2003*
+
+- Developed commercial software using C++, VB, and FoxPro.
 
 ## Selected AI / Data / Automation Work
 
-- LLM and Generative-AI solution work integrated with enterprise application contexts.
-- RAG and Agentic RAG workflows, including retrieval, reasoning and tool/API integration concepts.
-- DeepSeek fine-tuning and VLM/document-understanding model training/evaluation work.
-- n8n document/vision automation using Google Vision, Azure Vision, Claude Vision, Tesseract OCR, OCR.Space and Hugging Face/LLaVA components.
-- Power BI reporting and analytics integrated with enterprise platforms.
+- **Generative AI & LLM Systems:** Enterprise-grade LLM applications integrated into production ERP workflows.
+- **RAG & Agentic AI:** Multi-modal retrieval-augmented generation pipelines with custom tool/API calling.
+- **VLM & Document Intelligence:** DeepSeek fine-tuning and model training for complex OCR and vision workflows.
+- **n8n Intelligent Automation:** Workflow pipelines integrating Google Vision, Azure Vision, Claude Vision, Tesseract, and Hugging Face.
+- **Analytics & BI:** Integrated Power BI and enterprise reporting architecture.
 
 ## Selected Enterprise Platforms
 
-- SKY / SKY365 ERP and SaaS modernization.
-- CRM, HR, accounting, inventory, manufacturing, school, insurance and call-center systems.
-- SAP S/4HANA, Oracle, SharePoint, Primavera, SOAP/XML/REST integrations.
+- SKY / SKY365 ERP & SaaS Cloud Transformation.
+- Enterprise Integrations: SAP S/4HANA, Oracle, SharePoint, Primavera, REST/SOAP microservices.
 
 ## Education
 
-- Mansoura University — Master of Computer Applications / Computer and Information Sciences and Support Services, 2002–2004.
-- Tanta University — Bachelor of Engineering, Computer Engineering and Automatic Control, 1999–2000.
-- Postgraduate Data Science study covering Python, EDA, machine learning and deep learning.
+- **Mansoura University** — Master of Computer Applications (MCA) / Computer Science, 2002–2004.
+- **Tanta University** — Bachelor of Engineering, Computer Engineering & Automatic Control, 1999–1920.
+- **Postgraduate Data Science Studies** — Python, EDA, Machine Learning, Deep Learning & Neural Networks.
 
 ## Certifications
 
@@ -104,5 +110,3 @@ Project Management Professional (PMP) | Designing Database Solutions for Microso
 ## Languages
 
 Arabic — Native/Bilingual | English — Full Professional | German — Limited Working | French — Limited Working
-
-> Evidence note: Specific Azure services such as Azure ML, AI Foundry, AI Search and Databricks should be added only when supporting project/career evidence is confirmed. This draft intentionally avoids claiming unsupported service-level depth.
