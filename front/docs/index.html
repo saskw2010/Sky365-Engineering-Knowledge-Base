@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="بوابة توثيق مشروع Mawashigate وSky365 Marketplaces." />
+    <title>Mawashigate | بوابة التوثيق</title>
+    <style>
+      :root { --ink:#12241e; --brand:#0e9f6e; --soft:#ecfdf5; --muted:#60726a; --line:#dce9e2; }
+      * { box-sizing:border-box; } body { margin:0; background:#f7faf8; color:var(--ink); font-family:Tahoma, Arial, sans-serif; line-height:1.7; }
+      .wrap { max-width:1120px; padding:28px 22px 56px; margin:auto; }
+      .hero { overflow:hidden; position:relative; padding:48px; border-radius:28px; color:#fff; background:linear-gradient(135deg,#0b2f26,#087453 55%,#19b981); box-shadow:0 20px 55px #0c392b30; }
+      .eyebrow { margin:0 0 10px; color:#9ef1d0; font-weight:700; letter-spacing:.08em; font-size:.78rem; } h1 { margin:0; font-size:clamp(2rem,5vw,4rem); line-height:1.18; } h2 { margin-top:0; font-size:1.2rem; } .hero p { max-width:720px; color:#ddfff2; font-size:1.05rem; }
+      .badges { display:flex; flex-wrap:wrap; gap:10px; margin-top:24px; } .badge { border:1px solid #ffffff38; border-radius:999px; background:#ffffff14; padding:6px 12px; font-size:.85rem; }
+      .grid { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:24px; } .card { display:block; min-height:180px; padding:24px; color:inherit; background:#fff; border:1px solid var(--line); border-radius:20px; text-decoration:none; transition:transform .2s, box-shadow .2s, border-color .2s; } .card:hover { transform:translateY(-4px); border-color:#69cda8; box-shadow:0 16px 35px #123c2c18; } .card p { color:var(--muted); font-size:.94rem; }
+      .label { display:inline-block; margin-bottom:11px; padding:3px 9px; border-radius:999px; color:#087453; background:var(--soft); font-size:.76rem; font-weight:700; } .status { display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-top:18px; } .panel { padding:23px; background:#fff; border:1px solid var(--line); border-radius:20px; } ul { margin:0; padding-right:18px; } code { direction:ltr; unicode-bidi:embed; padding:2px 5px; border-radius:5px; background:#eff5f1; font-family:Consolas,monospace; font-size:.88em; }
+      footer { margin-top:38px; color:var(--muted); font-size:.88rem; } a { color:#087453; } @media (max-width:760px) { .hero { padding:30px 24px; } .grid,.status { grid-template-columns:1fr; } }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="hero">
+        <p class="eyebrow">SKY365 MARKETPLACES · DOCUMENTATION</p>
+        <h1>بوابة توثيق Mawashigate</h1>
+        <p>مرجع واضح للواجهة العامة، الأسواق المتعددة، التشغيل المحلي، وخط نشر Azure. الواجهة مستقلة عن إدارة Sky365، وتتصل عبر Marketplace API فقط.</p>
+        <div class="badges"><span class="badge">React + Vite</span><span class="badge">Arabic RTL</span><span class="badge">Multi-marketplace</span><span class="badge">Azure Static Web Apps</span></div>
+      </section>
+
+      <section class="grid" aria-label="المراجع الرئيسية">
+        <a class="card" href="architecture/MULTI_MARKETPLACE_FRONTEND_AR.md"><span class="label">المعمارية</span><h2>الواجهة والأسواق المتعددة</h2><p>السياق، الثيمات، الحسابات، الموديولات، والتنقل الموحد بين الأسواق.</p></a>
+        <a class="card" href="development/FRONTEND_DELIVERY_GUIDE_AR.md"><span class="label">التطوير والتسليم</span><h2>تشغيل، بناء، ونشر</h2><p>أوامر المشروع، متغيرات الواجهة الآمنة، GitHub Actions وقائمة التحقق.</p></a>
+        <a class="card" href="product/HOME_AND_MARKET_ROADMAP_AR.md"><span class="label">تجربة المستخدم</span><h2>خارطة الرئيسية والسوق</h2><p>تصور عالمي لتطوير Landing page وصفحة السوق والمكونات القابلة لإعادة الاستخدام.</p></a>
+      </section>
+
+      <section class="status">
+        <article class="panel"><h2>المسار التشغيلي</h2><p><code>apps/web</code> ← Marketplace API في Sky365 ← بيانات Marketplace. لا تنسخ API أو SQL أو ASP.NET Identity هنا.</p></article>
+        <article class="panel"><h2>النشر</h2><p>GitHub Actions يبني <code>dist/apps/web</code> وينشره إلى Azure Static Web Apps. دمج <code>main</code> هو مسار الإنتاج.</p></article>
+      </section>
+
+      <section class="panel" style="margin-top:18px"><h2>معايير حالة الدليل</h2><ul><li><strong>VERIFIED:</strong> دليل من كود أو Build أو GitHub Actions.</li><li><strong>CODE-ONLY:</strong> موجود في المصدر، دون UAT مصادق.</li><li><strong>PLANNED:</strong> قرار مستقبلي وليس ميزة منفذة.</li><li><strong>UNRESOLVED:</strong> يحتاج دليلًا من Azure أو Backend أو UAT.</li></ul></section>
+
+      <footer>إدارة المشروع: <a href="https://www.linkedin.com/in/mostafa-a-elnagar/" target="_blank" rel="noreferrer">مصطفى النجار</a> · © Sky365</footer>
+    </main>
+  </body>
+</html>
