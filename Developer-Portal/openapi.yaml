@@ -1,0 +1,59 @@
+openapi: 3.0.3
+info:
+  title: Sky 365 & WytSKY Enterprise API
+  version: 1.0.0
+  description: Official OpenAPI specification for Sky 365 ERP, wePOS, and AI Agent services.
+servers:
+  - url: https://api.wytsky.com/v1
+    description: Production Cloud Server
+  - url: https://staging-api.wytsky.com/v1
+    description: Staging Environment
+paths:
+  /auth/token:
+    post:
+      summary: Authenticate client
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                clientId:
+                  type: string
+                clientSecret:
+                  type: string
+      responses:
+        '200':
+          description: Successful authentication
+  /erp/warehouses:
+    get:
+      summary: List warehouses
+      security:
+        - BearerAuth: []
+      responses:
+        '200':
+          description: List of warehouses retrieved
+  /ai/chat:
+    post:
+      summary: Query Sky AI Agent with RAG support
+      security:
+        - BearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                message:
+                  type: string
+      responses:
+        '200':
+          description: AI response generated successfully
+components:
+  securitySchemes:
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

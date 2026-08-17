@@ -1,5 +1,7 @@
 # Sky365 Engineering Knowledge Base (SEKB)
 
+> 🌐 **Developer Hub:** Explore the newly added [WytSKY & Sky 365 Developer Portal](./Developer-Portal/README.md) and [OpenAPI Spec](./Developer-Portal/openapi.yaml) for complete API integration guides.
+
 The central engineering brain for all Sky365 projects.
 
 ## Purpose
