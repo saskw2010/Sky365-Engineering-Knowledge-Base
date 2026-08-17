@@ -13,6 +13,8 @@ Welcome to the official Developer Portal for **WytSKY Solutions** and the **Sky 
 | **Sky POS (wePOS) Integration** | Live cart sync, cashier terminals, and barcode webhooks | [Explore POS APIs](#3-wepos-integration-guide) |
 | **Sky AI Agent / RAG API** | Semantic Kernel endpoints and vector search queries | [Explore AI Endpoints](#4-sky-ai--rag-api) |
 | **SDKs & Code Samples** | C# / .NET 8 and TypeScript client libraries | [Download SDKs](https://github.com/saskw2010/Sky365-Engineering-Knowledge-Base/tree/main/Developer-Portal/sdks) |
+| **Integration Roadmap** | Shipped capabilities, P0/P1 priorities and production sequence | [Read the roadmap](./INTEGRATION-ROADMAP.md) |
+| **Dynamic RAG + SQL Design** | Tenant-safe hybrid retrieval and structured facts contract | [Read the design](./DYNAMIC-RAG-SQL-DESIGN.md) |
 
 ---
 
@@ -61,6 +63,10 @@ Empower your business apps with custom intelligence powered by Semantic Kernel a
     ```
 
 ---
+
+## 5. Production Integration Notes
+
+The public API examples in this portal are intentionally conservative. For the production integration sequence, tenant isolation requirements, evaluation gates and the Dynamic RAG + SQL Server contract, read the [Integration Roadmap](./INTEGRATION-ROADMAP.md) and [Dynamic RAG + SQL Design](./DYNAMIC-RAG-SQL-DESIGN.md).
 
 ## 📞 Developer Support
 - **Technical Lead:** Mostafa Elnagar (`saskw2010`)
